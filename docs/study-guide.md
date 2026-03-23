@@ -88,12 +88,8 @@ Can interfere if poorly managed.
 
 ## 🚀 Final Insight
 
-Effective fitness is not about choosing between: 
+Effective fitness is not about choosing between: **Strength or Cardio**
 
-**Strength or Cardio**
-
-But about:
-
-**Combining both strategically with data-driven decisions**
+But about: **Combining both strategically with data-driven decisions**
 
 ---
