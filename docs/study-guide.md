@@ -93,3 +93,9 @@ Effective fitness is not about choosing between: **Strength or Cardio**
 But about: **Combining both strategically with data-driven decisions**
 
 ---
+
+## 🔗 Application Access
+
+The dashboard was developed using Lovable and is available at:
+
+[Fit Analytics - Lovable App](https://fit-analytics.lovable.app/)
