@@ -1,5 +1,12 @@
 # 🏋️‍♂️ FitAnalytics — AI Fitness Analytics Platform
 
+![AI](https://img.shields.io/badge/AI-NotebookLM-blue)
+![AI](https://img.shields.io/badge/AI-ChatGPT-10a37f)
+![Dashboard](https://img.shields.io/badge/Dashboard-Lovable-purple)
+![Language](https://img.shields.io/badge/Python-EDA-yellow)
+![Topic](https://img.shields.io/badge/Topic-Fitness%20Analytics-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 An end-to-end Data Analytics + AI-inspired project focused on training performance, combining **strength training and running data** into an interactive dashboard and intelligent fitness system.
 
 This project simulates a real-world **Fitness Analytics Product**, inspired by platforms like Strava, Nike Run Club, and Whoop.
@@ -18,24 +25,28 @@ Transform structured training data into:
 
 ---
 
-## 🧱 Project Architecture
+# 📚 Project Structure
 
-```bash
-.
-├── docs/
-│   ├── insights.md          # Key insights extracted from the dataset
-│   ├── prompts.md           # Prompt engineering process (ChatGPT → Lovable)
-│   └── study-guide.md       # Consolidated knowledge and concepts
-│
-├── notebooks/
-│   └── exploratory_FitAnalysis.ipynb   # Exploratory data analysis (EDA)
-│
-├── sources/
-│   ├── FitAnalytics.csv
-│   └── references.md        # Study sources and materials
-│
-└── README.md
-```
+This repository is organized as follows:
+
+## docs
+
+- [Study Guide](docs/study-guide.md) → key concepts on training, performance, and analytics  
+- [Prompts](docs/prompts.md) → prompt engineering workflow (ChatGPT → Lovable refinement)  
+- [Insights](docs/insights.md) → main analytical insights extracted from the dataset  
+
+## notebooks
+
+- [Exploratory Analysis](notebooks/exploratory_FitAnalysis.ipynb) → exploratory data analysis (EDA) of training data  
+
+## sources
+
+- [Dataset](sources/FitAnalytics.csv) → structured dataset generated via NotebookLM  
+- [References](sources/references.md) → study materials and sources used in the project  
+
+## root
+
+- README.md → project overview and documentation  
 
 ---
 
