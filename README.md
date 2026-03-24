@@ -10,99 +10,115 @@ This project simulates a real-world **Fitness Analytics Product**, inspired by p
 
 Transform structured training data into:
 
-- 📊 Performance insights
-- 🧠 Intelligent training recommendations
-- 📅 Automated workout planning
-- 📈 Athlete evolution simulation
-- ⚠️ Fatigue & overtraining prediction
+- 📊 Performance insights;
+- 🧠 Intelligent training recommendations;
+- 📅 Automated workout planning;
+- 📈 Athlete evolution simulation;
+- ⚠️ Fatigue & overtraining prediction.
 
 ---
 
 ## 🧱 Project Architecture
 
-data/ → Dataset (NotebookLM generated)
-docs/ → Study materials, prompts, insights
-assets/ → Diagrams and visuals
+```bash
+.
+├── docs/
+│   ├── insights.md          # Key insights extracted from the dataset
+│   ├── prompts.md           # Prompt engineering process (ChatGPT → Lovable)
+│   └── study-guide.md       # Consolidated knowledge and concepts
+│
+├── notebooks/
+│   └── exploratory_FitAnalysis.ipynb   # Exploratory data analysis (EDA)
+│
+├── sources/
+│   ├── FitAnalytics.csv
+│   └── references.md        # Study sources and materials
+│
+└── README.md
+```
 
 ---
 
 ## 📊 Dataset Overview
 
-- 📄 Source: NotebookLM (AI-generated structured dataset)
-- 📦 Records: 50 exercises
-- 📊 Features: 19 variables
+- 📄 Source: NotebookLM (AI-generated structured dataset);
+- 📦 Records: 50 exercises;
+- 📊 Features: 19 variables.
 
 ### Key Variables:
 
-- Training Category (Strength / Running)
-- Muscle Group
-- Training Objective
-- Athlete Level
-- Intensity
-- Heart Rate Zone
-- Sets / Reps / Duration
-- Weekly Frequency
-- Benefits & Risks
-- Equipment
+- Training Category (Strength / Running).
+- Muscle Group.
+- Training Objective.
+- Athlete Level.
+- Intensity.
+- Heart Rate Zone.
+- Sets / Reps / Duration.
+- Weekly Frequency.
+- Benefits & Risks.
+- Equipment.
 
 ---
 
 ## 🧠 Analytical Layers
 
-### 1. Descriptive Analytics
-- Distribution of exercises
-- Muscle group focus
-- Training intensity patterns
+### 1. Descriptive Analytics:
+- Distribution of exercises;
+- Muscle group focus;
+- Training intensity patterns.
 
-### 2. Diagnostic Analytics
-- Relationship between intensity and duration
-- Training objectives vs exercise selection
+### 2. Diagnostic Analytics:
+- Relationship between intensity and duration;
+- Training objectives vs exercise selection.
 
-### 3. Predictive Logic (Simulated)
-- Athlete evolution trends
-- Fatigue risk estimation
+### 3. Predictive Logic (Simulated):
+- Athlete evolution trends;
+- Fatigue risk estimation.
 
-### 4. Prescriptive Analytics
-- Training recommendations
-- Automated weekly plans
+### 4. Prescriptive Analytics:
+- Training recommendations;
+- Automated weekly plans.
 
 ---
 
 ## 📈 Dashboard Features (Lovable)
 
-### 🟠 Overview
-- Training distribution (Strength vs Running)
-- Exercises per objective
-- Muscle group coverage
+🔗 Live Application:
+[Fit Analytics - Lovable App](https://fit-analytics.lovable.app/)
+
+### 🟠 Overview:
+- Training distribution (Strength vs Running);
+- Exercises per objective;
+- Muscle group coverage.
 
 ---
 
-### 💪 Strength Training Analysis
-- Exercises by muscle group
-- Equipment usage
-- Sets vs reps distribution
-- Level-based recommendations
+### 💪 Strength Training Analysis:
+- Exercises by muscle group;
+- Equipment usage;
+- Sets vs reps distribution;
+- Level-based recommendations.
 
 ---
 
-### 🏃 Running Analysis
-- Training types by objective
-- Heart rate zone analysis
-- Duration vs intensity correlation
+### 🏃 Running Analysis:
+- Training types by objective;
+- Heart rate zone analysis;
+- Duration vs intensity correlation.
 
 ---
 
-### 🧠 Virtual Coach (AI Assistant)
+### 🧠 Virtual Coach (AI Assistant):
 Provides personalized recommendations based on:
 
-- Training goal
-- Athlete level
-- Weekly availability
-- Desired intensity
+- Training goal;
+- Athlete level;
+- Weekly availability;
+- Desired intensity.
 
 ---
 
-### 📅 Training Plan Generator
+### 📅 Training Plan Generator:
 Automatically builds a weekly training schedule.
 
 Example:
@@ -111,59 +127,48 @@ Example:
 
 ---
 
-### 💯 Athlete Performance Score
+### 💯 Athlete Performance Score:
 
 A composite score (0–100) based on:
 
-- Training intensity
-- Weekly frequency
-- Volume
-- Training diversity
+- Training intensity;
+- Weekly frequency;
+- Volume;
+- Training diversity.
 
 Includes:
-- 💪 SVG-based visual indicator
-- 📊 Performance breakdown
-- 📌 Improvement recommendations
+- 💪 SVG-based visual indicator;
+- 📊 Performance breakdown;
+- 📌 Improvement recommendations.
 
 ---
 
-### 📈 Evolution Simulator
+### 📈 Evolution Simulator:
 
 Projects athlete performance over:
 
-- 4 weeks
-- 8 weeks
-- 12 weeks
+- 4 weeks;
+- 8 weeks;
+- 12 weeks.
 
 Metrics:
-- Strength
-- Endurance
-- Cardiovascular fitness
+- Strength;
+- Endurance;
+- Cardiovascular fitness.
 
 ---
 
-### ⚠️ Fatigue & Overtraining Prediction
+### ⚠️ Fatigue & Overtraining Prediction:
 
 **Fatigue Risk Index** based on:
 
-- Intensity
-- Frequency
-- Volume
+- Intensity;
+- Frequency;
+- Volume.
 
 Outputs:
 - Risk level (Low / Moderate / High)
-- Recovery recommendations
-
----
-
-## 🧪 Data Science Concepts Applied
-
-- Feature engineering (intensity, volume, frequency)
-- Heuristic scoring models
-- Simulation logic
-- Multi-dimensional analysis
-- Cross-filtering dashboards
-- Behavioral analytics
+- Recovery recommendations;
 
 ---
 
@@ -171,9 +176,9 @@ Outputs:
 
 Although no ML model is deployed, this project simulates:
 
-- Rule-based recommendation engine
-- Performance scoring system
-- Fatigue prediction logic
+- Rule-based recommendation engine;
+- Performance scoring system;
+- Fatigue prediction logic.
 
 This demonstrates how data products evolve into AI systems.
 
@@ -188,38 +193,33 @@ This demonstrates how data products evolve into AI systems.
 
 ---
 
-## 🗺️ Data Flow Diagram
-
-See: `assets/diagram.md`
-
----
-
 ## 🧩 Tools & Technologies
 
-- 🧠 NotebookLM (data generation & research)
-- 🎨 Lovable (dashboard development)
-- 📊 Recharts (data visualization)
-- 🗂️ GitHub (project versioning)
+- 🧠 NotebookLM (data generation and research);
+- 🎨 Lovable (interactive dashboard development);
+- 💻 ChatGPT (prompt engineering and workflow design);
+- 🗂️ GitHub (version control and project management);
+- 🐍 Python (exploratory data analysis and visualization).
 
 ---
 
 ## 🚀 Key Differentials
 
-✅ Hybrid training analysis (strength + running)  
-✅ AI-inspired fitness system  
-✅ Interactive dashboard with cross-filtering  
-✅ Athlete simulation engine  
-✅ Fatigue prediction model  
-✅ Strong storytelling for decision-making  
+✅ Hybrid training analysis (strength + running);
+✅ AI-inspired fitness system;  
+✅ Interactive dashboard with cross-filtering;  
+✅ Athlete simulation engine;
+✅ Fatigue prediction model;  
+✅ Strong storytelling for decision-making.
 
 ---
 
 ## 📌 Future Improvements
 
-- Integrate real user tracking data (wearables)
-- Add machine learning models (regression/classification)
-- Build API for real-time recommendations
-- Deploy as SaaS fitness analytics platform
+- Improve dashboard usability and user experience;
+- Add new training scenarios and insights;
+- Enhance visualizations and interactivity;
+- Continue evolving the project with new features and data.
 
 ---
 
